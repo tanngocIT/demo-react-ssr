@@ -13,13 +13,19 @@ Here’s what we will build in this tutorial:
 - Clone the repo:
 
 ```bash
-$ git clone https://github.com/Rohitkrops/ssr.git
+$ git clone git@github.com:tanngocIT/demo-react-ssr.git
 ```
 
 - Go to the project directory and install dependencies:
 
 ```bash
 $ cd ssr && yarn install
+```
+
+Launch the dev server:
+
+```bash
+$ yarn run dev
 ```
 
 Launch the server:
