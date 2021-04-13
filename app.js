@@ -25,7 +25,7 @@ const helmet = Helmet.renderStatic();
 app.get('/', (req, res) => {
   const { preloadedState, content } = ssr(initialState);
   const scripts = ` <script>
-window.__STATE__ = ${JSON.stringify(initialState)}
+window.__STATE__ = ${JSON.stringify(preloadedState)}
 </script>
 <script src="assets/client.js"></script>
 `;
